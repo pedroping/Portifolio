@@ -21,7 +21,7 @@ function Sobremimpage() {
 
   return (
     <div>
-      <Navibar />
+      <Navibar/>
       <div className={projeto.container}>
       <a className={projeto.titulo}>Projetos</a>
         <div className={projeto.caixas}></div>
@@ -32,14 +32,16 @@ function Sobremimpage() {
                 Descrição
               </button>
               <Modal show={showModal} onClose={() => setShowModal(false)}>
-                <Image src='/projeto_estagio.PNG' width= "500px" height= "350px" className={projeto.img} alt=""></Image>
+                <Image src='/projeto_estagio.PNG' width= "500px" height= "300px" className={projeto.img} alt=""></Image>
                 <a>
+                <br/><br/>
                   O objetivo do estágio foi construir um portal de acervo para exibição de publicações 
                   e imagens acadêmicas indígenas. Para isso tive que atuar na parte técnica escolha de tecnologias, arquitetura, etc. 
                   e na parte prática: aprimorar o uso de frameworks back-end e front-end, aprender noções de segurança na web e 
                   as desenvolver na prática, criação de cruds 
-                  e dashboards e participar vários estágios do desenvolvimento: planejar, programar, testar, revisar, refatoramento
+                  e dashboards e participar vários estágios do desenvolvimento: planejar, programar, testar, revisar, refatoramento.<br/><br/>
                 </a>
+                <a href="https://www.portaltingui.com.br" className={projeto.link}>Acesso ao site</a>
               </Modal>
           </div>
       </div>

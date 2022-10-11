@@ -39,7 +39,7 @@ export default function teste() {
                     </div>
                     <div className={h_styles.caixa} date-name="html">
                         <Image src='/sql.png' height= "500px" width= "500px"></Image>
-                        <h4>Banco de Dados</h4>
+                        <h4>MySQL</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="html">
                         <Image src='/react.png' height= "500px" width= "500px"></Image>
@@ -50,8 +50,8 @@ export default function teste() {
                         <h4>Git</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="html">
-                        <Image src='/office.png' height= "500px" width= "500px"></Image>
-                        <h4>Dominio Pacote Office</h4>
+                        <Image src='/postgre.png' height= "500px" width= "500px"></Image>
+                        <h4>PostgreSQL</h4>
                     </div>
                 </div>
             </div>
