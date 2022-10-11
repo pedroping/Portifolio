@@ -14,7 +14,7 @@ export default function teste() {
                 <a className={h_styles.titulo} >Habilidades:</a>
                 <div className={h_styles.caixas}>
                     <div className={h_styles.caixa} date-name="java">
-                        <Image src='/java_image.png' height= "500px" width= "500px"></Image>
+                        <Image src='/java2.png' height= "500px" width= "500px"></Image>
                         <h4>Java</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="php">
