@@ -39,13 +39,13 @@ function teste() {
                 Dethales
               </button>
               <Modal show={showModal} onClose={() => setShowModal(false)}>
-                <Image src='/projeto_estagio.png' width= "500px" height= "300px" className={projeto.img}></Image>
-                <a>
+                <Image src='/projeto_estagio.png' width= "50px" height= "250px" className={projeto.img}></Image>
+                <a className={projeto.texto}>
                   O objetivo do estágio foi construir um portal de acervo para exibição de publicações 
                   e imagens acadêmicas indígenas. Para isso tive que atuar na parte técnica escolha de tecnologias, arquitetura, etc. 
                   e na parte prática: aprimorar o uso de frameworks back-end e front-end, aprender noções de segurança na web e 
                   as desenvolver na prática, criação de cruds 
-                  e dashboards e participar vários estágios do desenvolvimento: planejar, programar, testar, revisar, refatoramento,
+                  e dashboards e participar vários estágios do desenvolvimento: planejar, programar, testar, revisar, refatoramento
                 </a>
               </Modal>
           </div>
