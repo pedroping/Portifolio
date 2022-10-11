@@ -41,7 +41,7 @@ function Sobremimpage() {
                   as desenvolver na prática, criação de cruds 
                   e dashboards e participar vários estágios do desenvolvimento: planejar, programar, testar, revisar, refatoramento.<br/><br/>
                 </a>
-                <a href="https://www.portaltingui.com.br" className={projeto.link}>Acesso ao site</a>
+                <a href="https://www.portaltingui.com.br" target="_blank" className={projeto.link}>Acesso ao site</a>
               </Modal>
           </div>
       </div>
