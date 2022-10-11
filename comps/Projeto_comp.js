@@ -34,12 +34,12 @@ function teste() {
         <div className={projeto.caixas}></div>
           <div className={projeto.caixa}>
               <h4>Estágio</h4>
-              <Image src='/projeto_estagio.png' width= "500px" height= "300px"></Image>
+              <Image src='/projeto_estagio.PNG' width= "500px" height= "300px"></Image>
               <button onClick={() => {mudar_page()}} className={projeto.button1}>
                 Dethales
               </button>
               <Modal show={showModal} onClose={() => setShowModal(false)}>
-                <Image src='/projeto_estagio.png' width= "50px" height= "250px" className={projeto.img}></Image>
+                <Image src='/projeto_estagio.PNG' width= "50px" height= "250px" className={projeto.img}></Image>
                 <a className={projeto.texto}>
                   O objetivo do estágio foi construir um portal de acervo para exibição de publicações 
                   e imagens acadêmicas indígenas. Para isso tive que atuar na parte técnica escolha de tecnologias, arquitetura, etc. 

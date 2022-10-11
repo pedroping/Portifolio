@@ -27,12 +27,12 @@ function Sobremimpage() {
         <div className={projeto.caixas}></div>
           <div className={projeto.caixa}>
               <h4>Estágio</h4>
-              <Image src='/projeto_estagio.png' width= "500px" height= "300px" alt=""></Image>
+              <Image src='/projeto_estagio.PNG' width= "500px" height= "300px" alt=""></Image>
               <button onClick={() => setShowModal(true)} className={projeto.button1}>
                 Descrição
               </button>
               <Modal show={showModal} onClose={() => setShowModal(false)}>
-                <Image src='/projeto_estagio.png' width= "500px" height= "350px" className={projeto.img} alt=""></Image>
+                <Image src='/projeto_estagio.PNG' width= "500px" height= "350px" className={projeto.img} alt=""></Image>
                 <a>
                   O objetivo do estágio foi construir um portal de acervo para exibição de publicações 
                   e imagens acadêmicas indígenas. Para isso tive que atuar na parte técnica escolha de tecnologias, arquitetura, etc. 
