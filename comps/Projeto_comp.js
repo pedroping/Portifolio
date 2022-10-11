@@ -9,6 +9,7 @@ import Modal from '../comps/Modal'
 import { useState, useEffect } from "react";
 import  ReactDOM from "react-dom";
 import Router from 'next/router'
+import Image from 'next/image'
 
 
 function teste() {
@@ -33,12 +34,12 @@ function teste() {
         <div className={projeto.caixas}></div>
           <div className={projeto.caixa}>
               <h4>Estágio</h4>
-              <img src='/projeto_estagio.png' alt=""></img>
+              <Image src='/projeto_estagio.png' width= "500px" height= "300px"></Image>
               <button onClick={() => {mudar_page()}} className={projeto.button1}>
                 Dethales
               </button>
               <Modal show={showModal} onClose={() => setShowModal(false)}>
-                <img src='/projeto_estagio.png' className={projeto.img}></img>
+                <Image src='/projeto_estagio.png' width= "500px" height= "300px" className={projeto.img}></Image>
                 <a>
                   O objetivo do estágio foi construir um portal de acervo para exibição de publicações 
                   e imagens acadêmicas indígenas. Para isso tive que atuar na parte técnica escolha de tecnologias, arquitetura, etc. 

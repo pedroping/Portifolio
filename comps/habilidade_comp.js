@@ -3,7 +3,7 @@ import h_styles from '../styles/Habilidades.module.css'
 import Navibar from '../comps/Navibar'
 import Navifooter from '../comps/Navifooter'
 import Link from 'next/link'
-
+import Image from 'next/image'
 
 export default function teste() {
   return (
@@ -14,43 +14,43 @@ export default function teste() {
                 <a className={h_styles.titulo} >Habilidades:</a>
                 <div className={h_styles.caixas}>
                     <div className={h_styles.caixa} date-name="java">
-                        <img src='/java.jpg' alt=""></img>
+                        <Image src='/java.png' height= "500px" width= "500px"></Image>
                         <h4>Java</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="php">
-                        <img src='/php-logo.png' alt=""></img>
+                        <Image src='/php-logo.png' height= "500px" width= "500px"></Image>
                         <h4>Php</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="python">
-                        <img src='/python.png' alt=""></img>
+                        <Image src='/python.png' height= "500px" width= "500px"></Image>
                         <h4>Python</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="html">
-                        <img src='/html+css+js.png' alt=""></img>
+                        <Image src='/html+css+js.png' height= "500px" width= "500px"></Image>
                         <h4>Html, Css e JavaScript</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="html">
-                        <img src='/laravel.png' alt=""></img>
+                        <Image src='/laravel.png' height= "500px" width= "500px"></Image>
                         <h4>Laravel</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="html">
-                        <img src='/vue.png' alt=""></img>
+                        <Image src='/vue.png' height= "500px" width= "500px"></Image>
                         <h4>Vue</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="html">
-                        <img src='/sql.png' alt=""></img>
+                        <Image src='/sql.png' height= "500px" width= "500px"></Image>
                         <h4>Banco de Dados</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="html">
-                        <img src='/react.png' alt=""></img>
+                        <Image src='/react.png' height= "500px" width= "500px"></Image>
                         <h4>React</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="html">
-                        <img src='/git.png' alt=""></img>
+                        <Image src='/git.png' height= "500px" width= "500px"></Image>
                         <h4>Git</h4>
                     </div>
                     <div className={h_styles.caixa} date-name="html">
-                        <img src='/office.png' alt=""></img>
+                        <Image src='/office.png' height= "500px" width= "500px"></Image>
                         <h4>Dominio Pacote Office</h4>
                     </div>
                 </div>
