@@ -32,7 +32,7 @@ function Sobremimpage() {
                 Descrição
               </button>
               <Modal show={showModal} onClose={() => setShowModal(false)}>
-                <Image src='/projeto_estagio.PNG' width= "500px" height= "300px" className={projeto.img} alt=""></Image>
+                <Image src='/projeto_estagio.PNG' width= "500px" height= "250px" className={projeto.img} alt=""></Image>
                 <a>
                 <br/><br/>
                   O objetivo do estágio foi construir um portal de acervo para exibição de publicações 
@@ -41,7 +41,7 @@ function Sobremimpage() {
                   as desenvolver na prática, criação de cruds 
                   e dashboards e participar vários estágios do desenvolvimento: planejar, programar, testar, revisar, refatoramento.<br/><br/>
                 </a>
-                <a href="https://www.portaltingui.com.br" target="_blank" className={projeto.link}>Acesso ao site</a>
+                <a href="https://www.portaltingui.com.br" target="_blank" rel="noreferrer" className={projeto.link}>Acesso ao site</a>
               </Modal>
           </div>
       </div>
