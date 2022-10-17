@@ -9,7 +9,6 @@ export default function teste() {
   return (
     <div>
         <div className={styles.corpo}>
-            
             <div className={h_styles.container}>
                 <a className={h_styles.titulo} >Habilidades:</a>
                 <div className={h_styles.caixas}>

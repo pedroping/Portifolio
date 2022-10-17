@@ -31,24 +31,13 @@ function teste() {
     <div>
       <div className={projeto.container}>
       <a className={projeto.titulo}>Projetos</a>
-        <div className={projeto.caixas}></div>
+        <div className={projeto.caixas}>
           <div className={projeto.caixa}>
               <h4>Estágio</h4>
               <Image src='/projeto_estagio.PNG' width= "500px" height= "300px"></Image>
               <button onClick={() => {mudar_page()}} className={projeto.button1}>
                 Dethales
               </button>
-              <Modal show={showModal} onClose={() => setShowModal(false)}>
-                <Image src='/projeto_estagio.PNG' width= "50px" height= "250px" className={projeto.img}></Image>
-                <a className={projeto.texto}>
-                  O objetivo do estágio foi construir um portal de acervo para exibição de publicações 
-                  e imagens acadêmicas indígenas. Para isso tive que atuar na parte técnica escolha de tecnologias, arquitetura, etc. 
-                  e na parte prática: aprimorar o uso de frameworks back-end e front-end, aprender noções de segurança na web e 
-                  as desenvolver na prática, criação de cruds 
-                  e dashboards e participar vários estágios do desenvolvimento: planejar, programar, testar, revisar, refatoramento
-                </a>
-                <a href="https://www.portaltingui.com.br" target="_blank" className={projeto.link}>Acesso ao site</a>
-              </Modal>
           </div>
           <div className={projeto.caixa}>
               <h4>Discografia</h4>
@@ -56,17 +45,22 @@ function teste() {
               <button onClick={() => {mudar_page()}} className={projeto.button1}>
                 Detalhes
               </button>
-              <Modal show={showModal} onClose={() => setShowModal(false)}>
-                <Image src='/discografia.png' width= "500px" height= "300px" className={projeto.img} alt=""></Image>
-                <a>
-                <br/><br/>
-                  Um projeto simples de uma aplicação web feita em Html, Css e JavaSrcrip, essa aplicação apresenta alguns albuns e uma 
-                  barra de pesquisa funcional que pode buscar tanto pelo nome do album quanto pelo nome da banda, toda a plicação é responsiva
-                  e pode ser acessada tanto por um celular ou por um computador<br/><br/>
-                </a>
-                <a href="https://github.com/pedroping/Discografia" target="_blank" rel="noreferrer" className={projeto.link}>Acesso ao repositório</a>
-              </Modal>
           </div>
+          <div className={projeto.caixa}>
+              <h4>Crud com HTML, CSS e JS</h4>
+              <Image src='/crud.png' width= "500px" height= "200px" alt=""></Image>
+              <button onClick={() => {mudar_page()}} className={projeto.button1}>
+                Detalhes
+              </button>
+          </div>
+          <div className={projeto.caixa}>
+              <h4>PokeDex</h4>
+              <Image src='/pokedex.png' width= "500px" height= "300px" alt=""></Image>
+              <button onClick={() => {mudar_page()}} className={projeto.button1}>
+                Detalhes
+              </button>
+          </div>
+        </div> 
       </div>
     </div>
     

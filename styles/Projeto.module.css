@@ -74,7 +74,7 @@
     width: auto;
     min-height: 500px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 50px 20px;
     background-color: #fcfbff;
     color: rgb(0, 0, 0);
     font-size: 35px;
@@ -90,7 +90,6 @@
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
-    float: left;
 }
 
 
@@ -146,4 +145,10 @@
 .link:hover {
     color: #999;
     transform: scale(1.05);
+}
+
+.titulo {
+    text-align: left;
+    justify-content: left;
+    padding: 50px;
 }
